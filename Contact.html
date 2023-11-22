@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+<h1>Contact Details</h1>
+<h3>Address: </h3>
+<p>House: 19, Flat: 3B, Road: 10, Block: H, Section: 02, Mirpur, Dhaka-1216</p>
+<h3>Mobile:</h3> <p>01833371780</p>
+<h3>E-mail:</h3> <p>sjb.25003@gmail.com</p>
+<hr size="3" noshade="0">
+
+<form action="mailto:sjb.25003@gmail.com" method="post" enctype="text/plain">
+<h3>Please leave your message here.</h3>
+<table>
+    <tr>
+        <td><label for="name">Type your Name:</label></td>
+        <td><input type="text" name="Your Name" value="" required></td>
+    </tr>
+    <tr>
+        <td><label for="phone">Your Mobile Number:</label></td>
+        <td><input type="tel" name="Mobile Number" pattern="[0-9]{5}-[0-9]{6}" value="">
+            <small>Format: 01234-567890</small></td>
+    </tr>
+    <tr>
+        <td><label for="email">Type you email address:</td>
+        <td><input type="email" name="Email Address" value="">
+            <small>Format: abc@domain.com</small></td>
+    </tr>
+    <tr>
+        <td><label for="yourmessage">Type your message below:</label></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2"><textarea name="Message" cols="60" rows="10"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="submit" name=""></td>
+    </tr>
+</table>
+
+</form>
+</body>
+</html>
