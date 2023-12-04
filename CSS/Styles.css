@@ -13,6 +13,11 @@ body {
     
 }
 
+.middle-container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 .bottom-container {
     background-color: #66BFBF;
     padding-top: 30px;
@@ -57,14 +62,14 @@ p {
 }
 .top-cloud {
     position: absolute;
-    right: 20%;
+    right: 300px;
     top: 150px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 20%;
-    bottom: 40%;
+    left: 300px;
+    bottom: 300px;
 }
 
 
