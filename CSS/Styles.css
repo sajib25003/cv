@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top:150px;
+    line-height: 2;
+    
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 3;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+}
+
+#Intro {
+    padding-top: 50px;
+    color: #66BFBF;
+}
+
+#line-2 {
+    margin: 0;
+    color:  #66BFBF;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2.5rem;
+    color:  #66BFBF;
+
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.5rem;
+    color: #11999E;
+}
+
+p {
+    margin: 0;
+    color: #40514E;
+}
+.top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 150px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+}
+
+
+#ProPic {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+hr {
+    border: 6px dotted #EAF6F6;
+    width: 4%;
+    border-bottom: 0;
+
+}
+
+.footer-link {
+    color: #11999E;
+    padding: 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    width: 15%;
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-img-2 {
+    width: 15%;
+    float: right;
+    padding-left: 30px;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+.button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: 'Arial', monospace;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 10px 20px 10px 20px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border-style: none;
+    margin: 30px Auto;
+ }
+
+ .copyright {
+    color: #EAF6F6;
+ }
